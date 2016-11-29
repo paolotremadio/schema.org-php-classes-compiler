@@ -1,5 +1,4 @@
-<?
-
+<?php
 
 require dirname(__FILE__).'/schema.class.php';
 /**
