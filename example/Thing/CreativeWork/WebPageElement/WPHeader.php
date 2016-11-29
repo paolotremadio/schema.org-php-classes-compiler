@@ -1,4 +1,0 @@
-<?php
-
-class Thing_CreativeWork_WebPageElement_WPHeader extends Thing_CreativeWork_WebPageElement{
-}

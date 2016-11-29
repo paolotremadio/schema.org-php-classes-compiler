@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Intangible_Enumeration_OfferItemCondition extends Thing_Intangible_Enumeration{
-}

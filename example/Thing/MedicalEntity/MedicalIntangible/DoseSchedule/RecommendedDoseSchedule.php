@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalIntangible_DoseSchedule_RecommendedDoseSchedule extends Thing_MedicalEntity_MedicalIntangible_DoseSchedule{
-}

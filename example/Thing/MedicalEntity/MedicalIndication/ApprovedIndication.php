@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalIndication_ApprovedIndication extends Thing_MedicalEntity_MedicalIndication{
-}

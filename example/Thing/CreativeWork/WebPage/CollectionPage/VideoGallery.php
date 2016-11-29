@@ -1,4 +1,0 @@
-<?php
-
-class Thing_CreativeWork_WebPage_CollectionPage_VideoGallery extends Thing_CreativeWork_WebPage_CollectionPage{
-}

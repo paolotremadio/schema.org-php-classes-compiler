@@ -1,4 +1,0 @@
-<?php
-
-class Thing_CreativeWork_WebPageElement_WPFooter extends Thing_CreativeWork_WebPageElement{
-}

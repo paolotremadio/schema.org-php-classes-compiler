@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Place_Landform_BodyOfWater_LakeBodyOfWater extends Thing_Place_Landform_BodyOfWater{
-}

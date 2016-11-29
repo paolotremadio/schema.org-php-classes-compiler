@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_EducationalOrganization_Preschool extends Thing_Organization_EducationalOrganization{
-}

@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration_MedicalDevicePurpose extends Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration{
-}

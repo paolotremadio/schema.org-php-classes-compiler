@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_EntertainmentBusiness_NightClub extends Thing_Organization_LocalBusiness_EntertainmentBusiness{
-}

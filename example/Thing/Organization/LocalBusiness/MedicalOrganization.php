@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_MedicalOrganization extends Thing_Organization_LocalBusiness{
-}

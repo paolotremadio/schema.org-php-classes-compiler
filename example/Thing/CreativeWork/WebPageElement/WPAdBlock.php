@@ -1,4 +1,0 @@
-<?php
-
-class Thing_CreativeWork_WebPageElement_WPAdBlock extends Thing_CreativeWork_WebPageElement{
-}

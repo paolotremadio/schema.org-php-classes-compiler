@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_Store_ToyStore extends Thing_Organization_LocalBusiness_Store{
-}

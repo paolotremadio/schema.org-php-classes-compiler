@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_HomeAndConstructionBusiness_RoofingContractor extends Thing_Organization_LocalBusiness_HomeAndConstructionBusiness{
-}

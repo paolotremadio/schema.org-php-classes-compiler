@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalTherapy_LifestyleModification extends Thing_MedicalEntity_MedicalTherapy{
-}

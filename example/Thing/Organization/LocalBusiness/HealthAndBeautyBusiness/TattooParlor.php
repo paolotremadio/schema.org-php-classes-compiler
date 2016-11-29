@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_HealthAndBeautyBusiness_TattooParlor extends Thing_Organization_LocalBusiness_HealthAndBeautyBusiness{
-}

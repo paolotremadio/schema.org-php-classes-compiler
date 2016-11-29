@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Intangible_Enumeration_BusinessEntityType extends Thing_Intangible_Enumeration{
-}

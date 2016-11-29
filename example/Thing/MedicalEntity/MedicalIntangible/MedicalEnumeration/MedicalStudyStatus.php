@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration_MedicalStudyStatus extends Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration{
-}

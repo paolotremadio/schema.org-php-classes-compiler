@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_EmergencyService extends Thing_Organization_LocalBusiness{
-}

@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_AnatomicalStructure_Bone extends Thing_MedicalEntity_AnatomicalStructure{
-}

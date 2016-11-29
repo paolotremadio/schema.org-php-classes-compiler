@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration_DrugPregnancyCategory extends Thing_MedicalEntity_MedicalIntangible_MedicalEnumeration{
-}

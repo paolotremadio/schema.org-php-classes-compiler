@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_ProfessionalService_Attorney extends Thing_Organization_LocalBusiness_ProfessionalService{
-}

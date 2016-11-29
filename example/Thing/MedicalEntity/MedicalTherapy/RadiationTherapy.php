@@ -1,4 +1,0 @@
-<?php
-
-class Thing_MedicalEntity_MedicalTherapy_RadiationTherapy extends Thing_MedicalEntity_MedicalTherapy{
-}

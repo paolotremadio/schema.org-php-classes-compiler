@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Place_CivicStructure_GovernmentBuilding_CityHall extends Thing_Place_CivicStructure_GovernmentBuilding{
-}

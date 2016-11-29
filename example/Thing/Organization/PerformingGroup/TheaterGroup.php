@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_PerformingGroup_TheaterGroup extends Thing_Organization_PerformingGroup{
-}

@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Place_CivicStructure_PlaceOfWorship_Synagogue extends Thing_Place_CivicStructure_PlaceOfWorship{
-}

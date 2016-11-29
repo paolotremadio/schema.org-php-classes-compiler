@@ -1,4 +1,0 @@
-<?php
-
-class Thing_Organization_LocalBusiness_HomeAndConstructionBusiness_Plumber extends Thing_Organization_LocalBusiness_HomeAndConstructionBusiness{
-}
