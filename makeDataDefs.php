@@ -44,10 +44,8 @@ foreach($builder->schema->types as $key => $type){
     }
 
     $builder->endClass();
-//die($className);
-    mkdir('/tmp/data/'.$path, 0777, true);
-  //  touch('/tmp/data/thing.php');
-    file_put_contents("/tmp/data/$path$key.php",$builder->data
+    mkdir('data/'.$path, 0777, true);
+    file_put_contents("data/$path$key.php",$builder->data
 
     );
     $builder->clearBuffer();
