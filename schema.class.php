@@ -14,18 +14,44 @@ class builder
         $this->data .= $data;
     }
 
+    private function generateNamespace($underscoreClassName)
+    {
+        $classNameParts = explode('_', $underscoreClassName);
+        $classNameParts = array_splice($classNameParts, 0, -1);
+
+        if (count($classNameParts) === 0) {
+            return 'SchemaOrg';
+        } else {
+            return 'SchemaOrg\\' . implode('\\', $classNameParts);
+        }
+    }
+
+    private function generateNamespacedClassName($className)
+    {
+        return '\\SchemaOrg\\' . str_replace('_', '\\', $className);
+    }
+
     function startClass($name, $extends = null)
     {
-        $data = "<?php
+        $namespace = $this->generateNamespace($name);
 
-class $name";
+        $classNameParts = explode('_', $name);
+        $className = array_pop($classNameParts);
+
+        $data = "<?php
+        
+namespace $namespace;
+
+class $className";
 
         if ($extends) {
-            $data .= " extends $extends";
+            $data .= " extends " . $this->generateNamespacedClassName($extends);
         }
 
-        $this->addToFile($data . '{
-');
+        $this->addToFile(
+            $data . '{
+'
+        );
     }
 
     function endClass()
@@ -46,7 +72,7 @@ class $name";
         }
 
         //var_dump($this->schema->properties->{$name});
-        $dataType = '';
+        $dataType = 'null|';
         $count = 0;
         foreach ($this->schema->properties->{$name}->ranges as $range) {
 
@@ -63,7 +89,7 @@ class $name";
                 foreach ($this->schema->types->{$range}->ancestors as $parent) {
                     $tmp .= $parent . '_';
                 }
-                $range = $tmp . $range;
+                $range = $this->generateNamespacedClassName($tmp . $range);
             }
 
             $dataType .= $range;
@@ -75,12 +101,12 @@ class $name";
 
         $data =
             "
-             /**
-              * $comment
-              *
-              * @var $$name $dataType
-              */
-              public $$name;
+     /**
+      * $comment
+      *
+      * @var $dataType $$name
+      */
+      protected $$name;
 ";
         $this->addToFile($data);
 //die(var_dump($this->schema->properties->{$name}));
